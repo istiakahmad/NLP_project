@@ -1,4 +1,5 @@
-import bs4 as bs
+import bs4 as bs # pip install lxml
+
 import urllib.request
 import re
 import nltk

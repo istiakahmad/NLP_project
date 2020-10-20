@@ -87,6 +87,6 @@ with open('LogisticModel_pickle', 'rb') as f:
 with open('TfidModel_pickle', 'rb') as f:
     tfidm = pickle.load(f)
 
-sample = ["You are bad Person"]
+sample = ["You are best Person"]
 sample = tfidm.transform(sample).toarray()
 print("Result: ", clfm.predict(sample))
